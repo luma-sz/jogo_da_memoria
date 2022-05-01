@@ -49,8 +49,5 @@ function unflipCards () { //se as cartas não combinam
           } ,1500)
       }
 }
-
-
-
 cards.forEach(card => card.addEventListener('click', flipCard));
 
